@@ -1,0 +1,6 @@
+# 모든 .h 파일을 C++로 인식하게 함
+*.h linguist-language=cpp
+
+# 라이브러리 폴더는 언어 통계에서 제외함
+include/* linguist-vendored
+lib/* linguist-vendored
